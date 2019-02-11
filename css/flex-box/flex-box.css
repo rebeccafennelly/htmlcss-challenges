@@ -63,12 +63,30 @@ main {
   justify-content: space-between;
 }
 
+.card {
+  border: solid black 2px;
+  height: 25%;
+  padding: 15px;
+}
+
+ul {
+  margin-left: 50px;
+}
+
+li {
+  margin: 15px 0;
+}
+
 #right-panel {
   width: 27.5%;
+  padding: 15px;
   border: solid black 2px;
 }
 
-.card {
-  border: solid black 2px;
-  height: 30%;
+#right-panel > h3 {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
 }
