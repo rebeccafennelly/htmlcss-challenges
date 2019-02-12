@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML images & links</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="images-links.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-info">
+          <img src="./scenic.jpg" alt="Scenic picture" />
+          <h2>Link to info on the same page</h2>
+          <h3>Local image (same folder)</h3>
+          <a href="#external-links">Jump to external links</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-info">
+          <img src="./assets/lighthouse.jpg" alt="Lighthouse image" />
+          <h2>Link to page on local site</h2>
+          <h3>Local image (different folder)</h3>
+          <a href="additional-page.html">Local link</a>
+        </div>
+      </div>
+      <div class="card">
+        <div id="external-links" class="card-info">
+          <img src="http://placekitten.com/500/300" alt="Kitten image" />
+          <h2>Link to external site</h2>
+          <h3>External image/generator</h3>
+          <a
+            href="https://www.w3schools.com/html/html_links.asp"
+            target="_blank"
+            >W3 schools - HTML links</a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
