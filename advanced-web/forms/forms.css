@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 2px red; */
+}
+
+form {
+  border: solid 2px black;
+  min-height: 50%;
+  min-width: 20%;
+}
+
+fieldset {
+  border: none;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.block {
+  /* margin: 10px auto; */
+  display: block;
+}
+/* 
+.radio-btn {
+  display: inline-block;
+  margin: 0 auto;
+} */
