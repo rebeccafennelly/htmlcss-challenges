@@ -9,8 +9,8 @@
   <body>
     <main>
       <form
-        action="https://www.w3schools.com/howto/howto_css_register_form.asp"
-        target="https://webhook.site/fa8634a8-9977-48e4-a18b-cb5934118872"
+        action="https://webhook.site/fa8634a8-9977-48e4-a18b-cb5934118872"
+        target="_blank"
         method="POST"
       >
         <fieldset>
@@ -20,6 +20,7 @@
             id="firstName"
             placeholder="First name"
             class="block"
+            required
           />
           <input
             type="text"
@@ -28,32 +29,91 @@
             placeholder="Last name"
             class="block"
           />
-          <!-- <textarea
-            rows="20"
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            class="block"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            minlength="6"
+            placeholder="Password - 6 letters (Upper & lower)"
+            class="block"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            required
+          />
+          <label class="label" for="gender">Gender:</label>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            class="click-input"
+            checked
+          />
+          Male<br />
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            class="click-input"
+          />
+          Female<br />
+          <input type="radio" name="gender" value="other" class="click-input" />
+          Other<br />
+        </fieldset>
+        <fieldset>
+          <textarea
+            rows="10"
             name="about"
             id="about"
-            placeholder="Something interesting about you"
+            placeholder="Something interesting about you..."
             class="block"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <label class="label" for="vehicle1 vehicle2 vehicle3"
+            >Do you own a:</label
           >
-          </textarea>
-          <input type="radio" name="gender" value="male" checked />
-          Male<br />
-          <input type="radio" name="gender" value="female" />
-          Female<br />
-          <input type="radio" name="gender" value="other" />
-          Other
-          <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike
-          <input type="checkbox" name="vehicle2" value="Car" /> I have a car
-          <label class="block" for="graduation">Date of graduation</label>
+          <input
+            type="checkbox"
+            name="vehicle1"
+            value="Bike"
+            class="click-input"
+          />
+          Bike<br />
+          <input
+            type="checkbox"
+            name="vehicle2"
+            value="Car"
+            class="click-input"
+          />
+          Car<br />
+          <input
+            type="checkbox"
+            name="vehicle3"
+            value="Lambretta"
+            class="click-input"
+            id="last-check"
+          />
+          Lambretta<br />
+        </fieldset>
+        <fieldset>
+          <label class="label" for="graduation">Date of graduation:</label>
           <input
             class="block"
             type="date"
             id="graduation"
             name="graduation"
             max="2019-05-25"
-          /> -->
-          <input type="submit" value="Submit" />
+            required
+          />
         </fieldset>
+        <input type="submit" value="Submit" id="submit" />
       </form>
     </main>
   </body>

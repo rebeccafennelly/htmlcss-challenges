@@ -5,8 +5,8 @@
 }
 
 main {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,23 +14,42 @@ main {
 }
 
 form {
+  margin: 10px auto;
   border: solid 2px black;
   min-height: 50%;
-  min-width: 20%;
+  min-width: 30%;
 }
 
 fieldset {
   border: none;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .block {
-  /* margin: 10px auto; */
+  margin: 10px auto;
   display: block;
+  width: 90%;
+  padding: 5px;
 }
-/* 
-.radio-btn {
-  display: inline-block;
-  margin: 0 auto;
-} */
+
+.click-input {
+  margin-left: 5%;
+}
+
+.label {
+  display: block;
+  padding-left: 5%;
+  margin: 5px 0;
+}
+
+#last-check {
+  margin-bottom: 10px;
+}
+
+#submit {
+  margin-bottom: 10px;
+  padding: 0.5em;
+  width: 75px;
+  margin: 10px auto;
+}
