@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nology-tech/solution-files#readme",
   "devDependencies": {
-    "htmlhint": "^0.10.1"
+    "htmlhint": "^0.10.1",
+    "sass": "^1.17.0"
   }
 }
