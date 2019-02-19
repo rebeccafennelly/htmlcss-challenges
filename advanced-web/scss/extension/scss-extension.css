@@ -14,13 +14,16 @@ header h1 {
   padding: 10px;
   background-color: #06a7ed;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 main {
   height: 90vh;
   width: 100vw;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-image: url("./background-2.jpg");
@@ -50,7 +53,8 @@ main #mdl-panel .hidden {
 main .side-panel {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 main .side-panel div {
   height: 25%;
@@ -63,7 +67,8 @@ main .side-panel div {
 main #mdl-panel {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 main #mdl-panel div {
   height: 40%;

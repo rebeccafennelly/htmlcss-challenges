@@ -15,6 +15,24 @@ $large-space: 20px;
 $border: 2px black solid;
 $border-rounding: 25px;
 
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin opacity($value) {
+  opacity: $value;
+}
+
 header {
   width: 100vw;
   max-height: 10vh;
@@ -24,28 +42,25 @@ header {
     max-width: 100%;
     padding: $medium-space;
     background-color: $primary-color;
-    display: flex;
-    justify-content: center;
+    @include flex-row;
   }
 }
 
 main {
   height: 90vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-row;
   background-image: url("./background-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
   .translucent {
-    opacity: 0.5;
+    @include opacity(0.5);
   }
 
   .translucent:hover {
-    opacity: 1;
+    @include opacity(1);
   }
 
   .side-panel,
@@ -63,9 +78,7 @@ main {
   }
 
   .side-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include flex-col();
 
     div {
       height: 25%;
@@ -78,9 +91,7 @@ main {
   }
 
   #mdl-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include flex-col;
 
     div {
       height: 40%;
