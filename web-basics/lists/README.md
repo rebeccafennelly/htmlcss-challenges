@@ -4,6 +4,6 @@
 
 ![Lists](lists.png)
 
-## Additional Challenge
+## Extension Challenge
 
 1. Make every even list item have a blue background
