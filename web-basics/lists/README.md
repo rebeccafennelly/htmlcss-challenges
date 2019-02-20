@@ -2,7 +2,7 @@
 
 1. Emulate the following screen shot using three list types and varying styles
 
-![Lists](../../../static/lists.png)
+![Lists](lists.png)
 
 ## Additional Challenge
 
