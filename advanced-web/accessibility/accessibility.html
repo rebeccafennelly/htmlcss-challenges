@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Page Title</title>
+    <title>Accessibility</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -24,29 +24,38 @@
           <h1 tabindex="1">_nology</h1>
         </div>
         <div id="icons">
-          <a href="#" alt="User page link">
+          <a href="#" aria-label="User profile" tabindex="2">
             <i class="fa fa-user-circle" aria-hidden="true"></i>
           </a>
-          <a href="#" alt="Settings page link">
+          <a href="#" aria-label="Settings" tabindex="3">
             <i class="fa fa-cog" aria-hidden="true"></i>
           </a>
-          <a href="#" alt="Meseenger page link">
+          <a href="#" aria-label="Messenger" tabindex="4">
             <i class="fa fa-telegram" aria-hidden="true"></i>
           </a>
         </div>
       </nav>
     </header>
     <main>
-      <form action="#">
+      <form action="#" aria-label="Input details" tabindex="5">
         <fieldset>
-          <input type="text" id="name" placeholder="Name" />
-          <input type="password" id="password" placeholder="Password" />
-          <input type="submit" />
+          <label for="name"></label>
+          <input type="text" id="name" placeholder="Name" tabindex="6" />
+          <label for="password"></label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            tabindex="7"
+          />
+          <label for="submit"></label>
+          <input id="submit" type="submit" tabindex="8" />
         </fieldset>
       </form>
       <img
-        src="../scss/background-2.jpg"
-        alt="Nology background"
+        src="./background.jpg"
+        tabindex="9"
+        alt="Nology background image"
         height="300px"
         width="500px"
       />
