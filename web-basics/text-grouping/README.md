@@ -1,7 +1,8 @@
 # Challenges
 
-1. Emulate the structure of the attached essay (see the pdf) using HTML tags
+1. Emulate the text formatting in the sample essay (e.g. bold // italic) using HTML tags
 
 ## Extension Challenge
 
-1. Find related content to the Essay (https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/healthy+living/is+your+health+at+risk/the+risks+of+poor+nutrition) and insert it into the HTML - use asides where appropriate
+1. Compare your markup with another students and with the solution file
+2. Discuss any differences you find
