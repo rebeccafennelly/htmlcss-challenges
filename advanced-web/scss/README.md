@@ -14,7 +14,7 @@
 3. As you hover over a panel its contents should become visible (but retain their transparency until you hover over them directly)
    -E.g. the top box in the middle panel is currently hovered over
 4. Open the solution files live server to see the desired behaviour for clarification
-5. Use mixins to replace any repetition in your CSS (e.g. flex settings or utility classes)
+5. Use inheritance or mixins to replace any repetition in your CSS (e.g. flex settings or utility classes)
 6. Use a mixin to change opacity by passing an opacity value into the mixin
 
 ![Extension screenshot](scss-extension.png)
