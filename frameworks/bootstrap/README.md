@@ -6,6 +6,7 @@
 
 ## Additional Challenge
 
-1. Replicate the second screenshot which uses...
+1. Replicate the second screenshot by bringing in a boostrap form
+2. Implement bootstrap padding and margin to get uniform spacing on all elements within the body.
 
-![Tablet-view](tablet.png)
+![Extension screenshot](bs-extension.png)
