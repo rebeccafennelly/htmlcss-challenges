@@ -1,12 +1,10 @@
 * {
+  font-family: Helvetica, sans-serif;
+  padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 100vh;
   width: 100vw;
   background-image: url("./background.jpg");
@@ -15,53 +13,68 @@ main {
   background-position: center;
 }
 
-button {
-  margin: 20px 0;
-  padding: 0.5em;
+h1 {
+  width: 100%;
+  height: 50px;
+  background-color: lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-input {
-  padding: 0.5em;
-}
-
-button:hover {
+h1:hover {
+  color: white;
   cursor: pointer;
 }
 
-#content-panel {
-  max-width: 100vw;
-  max-height: 100vh;
-  text-align: center;
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
 }
 
-#hide:hover {
-  cursor: pointer;
-}
-
-#hover-div {
-  width: 80vw;
-  height: 250px;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: rgb(81, 243, 6);
+section {
+  padding: 10px;
+  min-width: 40%;
+  height: 40%;
+  background-color: lime;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-#fade-div {
-  height: 100px;
-  width: 50%;
-  margin-left: 20px;
-  background-color: white;
-  position: absolute;
+button,
+input {
+  font-size: 1.25em;
+  padding: 0.25em;
+  margin: 20px 0;
 }
 
-#slide-div {
-  width: 80vw;
+button:hover {
+  cursor: pointer;
+}
+
+#edit-sec {
+  flex-direction: column;
+}
+
+#fade-div {
   height: 100px;
-  margin: 0 auto;
-  background-color: lightgray;
-  opacity: 0.5;
+  width: 100px;
+  background-color: white;
+  margin-left: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+#animate-btn {
+  display: block;
 }
