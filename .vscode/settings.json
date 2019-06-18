@@ -1,3 +1,10 @@
 {
-    "editor.formatOnSave": true
+  "liveServer.settings.port": 5502,
+  "prettier.printWidth": 120,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
