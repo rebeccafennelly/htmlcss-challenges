@@ -20,13 +20,15 @@ main {
     ". education education education .";
 }
 
-#nav {
+nav {
   display: none;
   grid-area: nav;
 }
 
 #pic-container {
   grid-area: c-pic;
+  display: flex;
+  align-items: center;
 }
 
 #circle-pic {
@@ -45,7 +47,6 @@ main {
 .content {
   padding: 10px;
   color: white;
-  /* text-align: center; */
 }
 
 .primary {
@@ -85,15 +86,15 @@ main {
       ". education education .";
   }
 
-  #nav,
-  #nav * {
+  nav,
+  nav * {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
   }
 
-  #nav {
+  nav {
     justify-content: space-between;
     height: 50px;
     font-size: 1.25em;
