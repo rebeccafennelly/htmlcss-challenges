@@ -2,7 +2,7 @@
 
 This is the repository for _nology challenges relating to HTML and CSS challenges.
 
-All challenge solution can be seen here: htmlchallenges.nology.io
+All solutions can be viewed here: <https://htmlchallenges.nology.io/>
 
 ## Getting started
 

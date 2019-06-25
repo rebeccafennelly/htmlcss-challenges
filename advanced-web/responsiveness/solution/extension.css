@@ -37,7 +37,7 @@ nav {
   margin: 0 auto;
   border: solid 2px black;
   border-radius: 50%;
-  background-image: url("../lavender.jpg");
+  background-image: url("../assets/lavender.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
