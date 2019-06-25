@@ -26,3 +26,15 @@ git checkout -b <challenge-name>
 3. Commit your work as you complete the challenge and push up the branch to github.
 4. When ready, create a pull request and assign a trainer as a reviwer.
 5. If approved you can close the pull request and merge the code. If there are comments then continue commiting your work on the existing branch and push to github, this will appear in the pull request.
+
+### Updating your Fork
+
+You will need to do this if we update the main challenges repo and want you to have the changes in your forked repository.
+
+1. Navigate into you repository folder in your machines command line
+
+2. Run the following command
+
+```JavaScript
+git pull https://github.com/nology-tech/html-css-challenges.git master
+```

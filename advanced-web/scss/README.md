@@ -1,12 +1,12 @@
 # Challenges
 
-## !!Open the scss.html file in the live-server to see the desired behaviour!! ##
+## !!Open the solution/index.html file in the live-server to see the desired behaviour!! ##
 
 1. Emulate the following screenshot using SCSS as a pre-processor:
 2. The three panels and their individual contents should be transparent by default
 3. On hover they should lose their transparency (e.g. top left pink panel in screenshot)
 4. Open the solution files live server to see the desired behaviour for clarification
-5. These CSS values should be set as variables at the beginning of the file: border, border-radius, any theme colours, any spacings
+5. The following values should be set as variables at the beginning of the scss file: border, border-radius, any theme colours, any spacings
 
 ![SCSS screenshot](scss.png)
 
