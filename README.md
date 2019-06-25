@@ -22,10 +22,12 @@ We follow github flow for each challenge. This means creating a new branch, comp
 ```
 git checkout -b <challenge-name>
 ```
-2. Complete the challenge by writing your code in the challenge.html and challenge.css files (there are template challenge files included for you to use).
+2. Complete the challenge by writing your code in the challenge/index.html and challenge/main.css files (there are template challenge files included for you to use).
 3. Commit your work as you complete the challenge and push up the branch to github.
 4. When ready, create a pull request and assign a trainer as a reviwer.
 5. If approved you can close the pull request and merge the code. If there are comments then continue commiting your work on the existing branch and push to github, this will appear in the pull request.
+
+**Note:** If the extension is building in more functionality ontop of the base challenge then you can add it to the same index.html and main.css. 
 
 ### Updating your Fork
 
