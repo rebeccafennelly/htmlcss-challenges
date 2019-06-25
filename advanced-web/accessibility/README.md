@@ -10,6 +10,3 @@
 
 ![Accessibility screenshot](screenshot.png)
 
-## Additional Challenge
-
-1. Add a second breakpoint at 768px and set the following layout to display on tablet (between 550 & 768px) using CSS grid.

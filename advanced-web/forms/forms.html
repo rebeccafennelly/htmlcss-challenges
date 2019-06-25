@@ -10,7 +10,7 @@
     <main>
       <h1>Form & webhook challenge</h1>
       <form
-        action="https://webhook.site/fa8634a8-9977-48e4-a18b-cb5934118872"
+        action="http://webhook.site/e5f05f0c-298f-4048-b506-1afa8b58b0c0"
         target="_blank"
         method="POST"
       >
@@ -49,7 +49,7 @@
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
               required
             />
-            <label class="label" for="gender">Gender:</label>
+            <legend class="label" for="gender">Gender:</legend>
             <input
               type="radio"
               name="gender"
@@ -92,29 +92,31 @@
             />
           </fieldset>
           <fieldset>
-            <label class="label" for="vehicle1 vehicle2 vehicle3"
-              >Do you own a:</label
+            <legend class="label" for="vehicle"
+              >Do you own a:</legend
             >
             <input
               type="checkbox"
-              name="vehicle1"
+              name="vehicle"
               value="Bike"
               class="click-input"
+              id="bike"
             />
             Bike<br />
             <input
               type="checkbox"
-              name="vehicle2"
+              name="vehicle"
               value="Car"
               class="click-input"
+              id="car"
             />
             Car<br />
             <input
               type="checkbox"
-              name="vehicle3"
+              name="vehicle"
               value="Lambretta"
               class="click-input"
-              id="last-check"
+              id="lambretta"
             />
             Lambretta<br />
           </fieldset>
