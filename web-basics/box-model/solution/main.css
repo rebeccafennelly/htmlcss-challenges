@@ -58,7 +58,7 @@ h3 {
 #jumbotron {
   height: 250px;
   color: white;
-  background-image: url("./jumbotron-background.jpg");
+  background-image: url("../assets/jumbotron-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
