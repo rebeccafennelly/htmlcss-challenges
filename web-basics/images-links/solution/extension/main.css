@@ -51,7 +51,7 @@ main {
 #scenic-bg {
   min-height: 80%;
   min-width: 100%;
-  background-image: url("../assets/scenic.jpg");
+  background-image: url("../../assets/scenic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

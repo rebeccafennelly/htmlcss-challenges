@@ -1,7 +1,8 @@
 # Challenges
 
 1. Clicking the first link will carry you further down the page to external link card (see below)
-2. Clicking the 3rd link should open W3 schools in a new tab
+2. Clicking the second link will take you to the additional-page.html page
+3. Clicking the 3rd link should open W3 schools in a new tab
 
 ![Links screenshot](links.png)
 

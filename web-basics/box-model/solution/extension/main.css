@@ -18,3 +18,8 @@ div {
 #box-4 {
   border: dotted 2px black;
 }
+
+p {
+  font-weight: bold;
+  font-size: 1.25em;
+}
