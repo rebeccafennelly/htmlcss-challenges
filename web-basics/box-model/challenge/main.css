@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+}    
+header {
+        background-color: blue;
+        height: 60px;
+        
+    }
+
+h1 { 
+    padding: 10px;
+    color: white;
+}
+
+article {
+    display: inline-block;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    color: white;
+    background-color: blue;
+}
+
+section {
+    border: 2px solid black;
+    
+}
+
+div {
+    display: relative; 
+}
+
+h4 {
+    color: white;
+    position: absolute;
+}
+
+.background-image {
+    
+}

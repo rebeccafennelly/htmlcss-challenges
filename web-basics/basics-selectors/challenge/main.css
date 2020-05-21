@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+.firstbox {
+    border: 2px solid black;
+
+}
+
+
+.firstbox p {
+    color: blue;
+    font-style: italic;
+}
+
+.secondbox {
+    border: 2px solid black;
+
+}
+
+.catipsum {
+    text-align: center;
+}
