@@ -6,7 +6,7 @@
 
 /* navbar stylings */
 
-nav,
+
 nav * {
   display: flex;
   justify-content: center;

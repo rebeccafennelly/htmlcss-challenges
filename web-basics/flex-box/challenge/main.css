@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    border: black 2px solid;
+    width: 100vw;
+    height: 3%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div .nology {
+    height: 80%;
+}
+.nology {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+ }
+
+ nav .links {
+     display: flex
+     justify-content space-evenly;
+     align-items: center;
+ }
+
+li {
+    display: inline-block;
+    padding: 30px;
+}
+
+li a {
+    color: white;
+}
+
+/* CSS for main */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+article {
+    border: black 2px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
+article li {
+    display: block;
+
+
+}
+
+.sectionleft {
+    
+    width: 70%;
+    margin-left:30px;
+    margin-top: 30px;
+
+}
+
+.sectionright {
+    width: 30%;
+    height: 100vh;
+    margin: 30px;
+}
+
+.sectionright article {
+    height: 107%;
+
+}
+    
