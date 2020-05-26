@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  max-height: 10vh;
+  width: 100vw;
+}
+
+header h1 {
+  background-color: #41cbee;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../assets/background-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .leftandright {
+  height: 400px;
+  width: 300px;
+  border: solid 2px black;
+  border-radius: 20px;
+  opacity: 0.4;
+  background-color: #41cbee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .leftandright:hover {
+  opacity: 1;
+}
+
+main .landr {
+  height: 100px;
+  width: 250px;
+  border-radius: 15px;
+  border: solid 2px black;
+}
+
+main .landr#divpink {
+  opacity: 0.4;
+  background-color: hotpink;
+}
+
+main .land#divpink:hover {
+  opacity: 1;
+}
+
+main .landr#divpurple {
+  opacity: 0.4;
+  background-color: rebeccapurple;
+}
+
+main .land#divpurple:hover {
+  opacity: 1;
+}
+
+main .middleone {
+  height: 400px;
+  width: 300px;
+  border: solid 2px black;
+  border-radius: 20px;
+  opacity: 0.4;
+  background-color: #41cbee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .middleone:hover {
+  opacity: 1;
+}
+
+main .greendivs {
+  height: 150px;
+  width: 250px;
+  background-color: lightgreen;
+  opacity: 0.4;
+  border-radius: 15px;
+  border: solid 2px black;
+}
+
+main .greendivs .greendivs:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=index.css.map */

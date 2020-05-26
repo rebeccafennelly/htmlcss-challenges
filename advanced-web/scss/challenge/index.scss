@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$headerheight: 10vh;
+$bluecolour: rgb(65, 203, 238);
+$articleheight: 400px;
+$articlewidth: 300px;
+$articleborder: solid 2px black;
+$articleborderradius: 20px;
+$articleopacity: 0.4;
+
+header {
+    max-height: 10vh;
+    width: 100vw;
+
+    h1 {
+        background-color: $bluecolour;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+}
+main {
+    height: (100vh - $headerheight);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../assets/background-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+     
+        
+        .leftandright {
+        
+        height: $articleheight;
+        width: $articlewidth;
+        border: $articleborder;
+        border-radius: $articleborderradius;
+        opacity: $articleopacity;
+        background-color: $bluecolour;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        
+        .leftandright:hover {
+                opacity: 1;
+
+            }
+                .landr {
+                    height: 100px;
+                    width: 250px;
+                    border-radius: 15px;
+                    border: $articleborder;
+                }   
+                    .landr#divpink {
+                        opacity: $articleopacity;
+                        background-color: hotpink;
+                    }
+                    .land#divpink:hover {
+                            opacity: 1;
+                        }
+
+                    .landr#divpurple {
+                        opacity: $articleopacity;
+                        background-color: rebeccapurple;
+                    }
+                    
+                    .land#divpurple:hover {
+                            opacity: 1;
+                        }
+
+
+        .middleone {
+        height: $articleheight;
+        width: $articlewidth;
+        border: $articleborder;
+        border-radius: $articleborderradius;
+        opacity: $articleopacity;
+        background-color: $bluecolour;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        }
+
+            .middleone:hover {
+                opacity: 1;
+            }
+
+                .greendivs {
+                    height: 150px;
+                    width: 250px;
+                    background-color: lightgreen;
+                    opacity: $articleopacity;
+                    border-radius: 15px;
+                    border: $articleborder;
+
+                .greendivs:hover {
+                    opacity: 1;
+                }
+            }
+    }

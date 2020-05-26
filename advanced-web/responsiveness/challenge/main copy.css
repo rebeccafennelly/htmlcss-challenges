@@ -17,16 +17,18 @@ section {
     justify-content: center;
     align-items: center;
     margin: 30px;
+     
     
 }
 
-.balloonpic {
+section .balloonpic {
         
     width: 150px;
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
     border: 4px black solid;
+    background-color: none;
        
 }
       
@@ -37,13 +39,44 @@ section {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+    grid-template-areas: 
+    "row1   row1    row2    row2    row2"    
+    "row1   row1    row3    row3   row3"
+    "row4   row4    row4    row4    row4"
+    "row5   row5    row5    row5    row5" 
+    "row6   row6    row6    row6    row6";
+
+
     column-gap: 14px;
     gap: 30px;
     color: white;
     font-size: 28px;
     font-weight: bold;
     padding: 40px;
+}
+
+#picture {
+    grid-area: "row1"
+}
+
+#about {
+    grid-area: "row2";
+}
+
+#hobbies {
+    grid-area: "row3";
+}
+
+#contact {
+    grid-area: "row4";
+}
+
+#employment {
+    grid-area: "row5";
+}
+
+#education {
+    grid-area: "row6";
 }
 
 .container div {
@@ -55,6 +88,8 @@ section {
 
 
     @media only screen and (min-width: 550px) {
+    
+
     
         
     
