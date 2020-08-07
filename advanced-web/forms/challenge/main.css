@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  font-size: 40px;
+  border: 2px solid black;
+  width: 80vw;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+.row-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 1000px;
+}
+
+.column-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+form {
+  height: 70vh;
+  width: 80vw;
+  border: 2px solid grey;
+}
+
+form article {
+  border: 2px solid grey;
+  height: 300px;
+  width: 250px;
+  background-color: limegreen;
+  padding: 25px;
+}
+
+form .inputs label {
+  display: none;
+}
+
+#interesting {
+  height: 200px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -3,10 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css"
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Form & Webhook Challenge</title>
 </head>
 <body>
   
-</body>
+  <header><h1>Form & webhook challenge</h1></header>
+  
+  <main>
+  <form action="https://webhook.site/5dc0af6d-ac38-4111-8477-2cc0eb8d6a14" method="POST">
+ <div class="column-wrapper">
+   <div class="row-wrapper">
+    <article>
+      <fieldset class="inputs">
+        <input type="text" name="firstname" id="firstname" placeholder="First name" required>
+        <label for="firstname">First name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Last name">
+        <label for="lastname">Last name</label>
+        <input type="email" name="email" id="email" placeholder="Email address" required>
+        <label for="email">Email</label>
+        <input type="password" name="password" id="fpassword" placeholder="Password - 6 letters (upper and low)" required>
+      </fieldset>
+
+      <fieldset>
+
+      <label for= "male">Male</label>
+      <input type="radio" name="gender" value="Male" checked="true" id="male">
+      <label for= "female">Female</label>
+      <input type="radio" name="gender" value="Female" checked="true" id="female">
+      <label for= "other">Other</label>
+      <input type="radio" name="gender" value="Other" checked="true" id="other">
+
+      </fieldset>
+
+    </article>
+
+    <article>
+    <input type="text" name="interesting" id="interesting" placeholder="Something interesting about you...">
+    <label for="interesting"></label>
+    <input type="date" name="date" id="date">
+    <label for="interesting"></label>
+    </article>
+
+    <article>
+      <legend>Do you own a:</legend>
+      <input type="checkbox" name="bike" id="bike">
+      <label for= "car">Bike</label>
+      <input type="checkbox" name="car" id="car">
+      <label for= "car">Car</label>
+      <input type="checkbox" name="lambretta" id="lambretta">
+      <label for= "lambretta">Lambretta</label>
+    
+    </article>
+  </div>
+
+    <input type="submit" value="Submit" id="submit">
+  </div>
+    </form>
+  </main>
+  </body>
+
 </html>

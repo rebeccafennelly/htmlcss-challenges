@@ -68,11 +68,11 @@ main {
                     border-radius: 15px;
                     border: $articleborder;
                 }   
-                    .landr#divpink {
+                    &#divpink {
                         opacity: $articleopacity;
                         background-color: hotpink;
                     }
-                    .land#divpink:hover {
+                    &:hover {
                             opacity: 1;
                         }
 
@@ -81,7 +81,7 @@ main {
                         background-color: rebeccapurple;
                     }
                     
-                    .land#divpurple:hover {
+                    &:hover {
                             opacity: 1;
                         }
 
@@ -112,7 +112,7 @@ main {
                     border-radius: 15px;
                     border: $articleborder;
 
-                .greendivs:hover {
+                &:hover {
                     opacity: 1;
                 }
             }
